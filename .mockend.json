@@ -1,6 +1,6 @@
 {
   "Building": {
-    "id": { "int": {}},
+    "id": { "string": {}},
     "name": { "string": [
       "Duples Pent House",
       "Incredible Beach House",
