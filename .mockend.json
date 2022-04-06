@@ -1,1 +1,40 @@
-{"User":{"title":{"string":{}}}}
+{
+  "Building": {
+    "id": { "int": {}},
+    "name": { "string": [
+      "Duples Pent House",
+      "Incredible Beach House",
+      "Amazing Farm House",
+      "Wonderful Mansion",
+      "Fantastic Apartment",
+      "Fantastic House",
+      "Fantastic Villa"
+    ]},
+    "address": { "string": [
+      "123 Main Street",
+      "456 Main Street",
+      "789 Main Street",
+      "123 Main Street",
+      "456 Main Street",
+      "789 Main Street",
+      "123 Main Street"
+    ]},
+    "image": { "string": [
+      "https://3.bp.blogspot.com/-4CACViOzgFs/VwFuYeHYyRI/AAAAAAAATuA/Ih5LyPrOLO8ArkgPeFguSqX9PAGVYXYCQ/s1600/LittleHouse_BigTerrace_TakuroYamamoto_15.jpg",
+      "https://i.ytimg.com/vi/EkpYgepycN4/maxresdefault.jpg",
+      "https://archello.s3.eu-central-1.amazonaws.com/images/2015/10/15/image-08-1.1506078306.612.jpg",
+      "https://www.e-architect.com/wp-content/uploads/2015/02/courtyard-house-india-p170215-7.jpg",
+      "https://www.thewowdecor.com/wp-content/uploads/2020/08/1-14.jpg",
+      "https://www.homeinspirationideas.net/wp-content/uploads/2020/02/The-Inner-House-Building-Furnish-and-Design-2.jpg"
+    ]},
+    "price": { "int": {"min": 1000, "max": 100000}},
+    "beds": { "int": {"min": 0, "max": 5}},
+    "baths": { "int": {"min": 0, "max": 5}},
+    "sqft": { "int": { "min": 50, "max": 1000}},
+    "status": { "string": [
+      "For Sale",
+      "For Rent",
+      "Sold"
+    ]}
+  }
+}
